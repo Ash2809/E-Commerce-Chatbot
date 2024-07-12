@@ -34,5 +34,5 @@ def generation(vector_store):
 if __name__ == "__main__":
     vector_store = ingest_data("done")#parameter is done cuz ingest_data ran and DB has been created
     chain  = generation(vector_store)
-    print(chain.invoke("can you tell me the best bluetooth buds?"))
+    print(chain.invoke("What is the best headphone to buy?"))
 
